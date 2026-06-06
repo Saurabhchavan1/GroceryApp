@@ -1,21 +1,89 @@
-<<<<<<< HEAD
-# React + Vite
+# GroceryApp 🛒
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern Grocery Shopping web application built with React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Home Page
+* Fruits Category
+* Dairy Products Category
+* Seafood Category
+* All Products Listing
+* About Us Page
+* Process Information Page
+* Contact Page
+* Responsive Navigation
+* React Router Based Routing
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React 19
+* Vite
+* React Router DOM
+* React Icons
+* Swiper
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# GroceryApp
-Developed a responsive grocery web application using React and Tailwind CSS that displays grocery items fetched from an external API. Implemented smooth page navigation with React Router DOM and interactive product carousels using Swiper.js. Enhanced the UI with React Icons and a modern, mobile-friendly .
->>>>>>> 7be8eea0464d1b57565a97449c70fb834282ceca
+```text
+src/
+├── Components/
+│   ├── Home/
+│   ├── Fruits/
+│   ├── Dairy/
+│   ├── Seafood/
+│   ├── AllProducts/
+│   ├── About/
+│   ├── Processpage/
+│   ├── Contact/
+│   └── Layout/
+├── App.jsx
+└── main.jsx
+```
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Saurabhchavan1/GroceryApp.git
+```
+
+Navigate to the project folder:
+
+```bash
+cd GroceryApp
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+Build for production:
+
+```bash
+npm run build
+```
+
+Preview production build:
+
+```bash
+npm run preview
+```
+
+## Author
+
+Saurabh Chavan
+
+## License
+
+This project is for learning and portfolio purposes.
+
