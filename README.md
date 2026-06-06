@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -14,3 +15,7 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+=======
+# GroceryApp
+Developed a responsive grocery web application using React and Tailwind CSS that displays grocery items fetched from an external API. Implemented smooth page navigation with React Router DOM and interactive product carousels using Swiper.js. Enhanced the UI with React Icons and a modern, mobile-friendly .
+>>>>>>> 7be8eea0464d1b57565a97449c70fb834282ceca
